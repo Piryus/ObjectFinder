@@ -628,7 +628,7 @@
 1572	MaelstromShamanHubIntroScenario
 1579	UdluarScenario
 1580	MaelstromTitanScenario
-1582	Artifact´?¢DalaranVaultAcquisition
+1582	Artifactï¿½DalaranVaultAcquisition
 1583	Artifact-DalaranVaultAcquisition
 1584	JulienTestLand-DevOnly
 1586	AssualtOnStormwind
@@ -859,3 +859,14 @@
 1912	Islands_7az_cave02
 1913	PhaseableMONazmirTriangulationPlatform
 1916	PhaseableMONazmirShipWorldQuest
+1917	GorgrondOrcs
+1918	Kalimdor 2
+1919	Islands_KL_Skywall_Entrance_Building_03
+1920	Islands_MD_Flamegate_E
+1921	Islands_8HU_Kultiras_ShipMedium01
+1922	Islands_8TR_Zandalari_ShipMediumTransport01
+1923	Islands_Deepholm_Mercury_Pool01
+1924	Islands_7AZ_Vashjir_Small_Cave_A
+1925	DevMapH
+1926	KulTiranFlagship
+1927	ZandalariFlagship
