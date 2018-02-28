@@ -870,3 +870,4 @@
 1925	DevMapH
 1926	KulTiranFlagship
 1927	ZandalariFlagship
+1929	HallOfCommunion(Destroyed)
