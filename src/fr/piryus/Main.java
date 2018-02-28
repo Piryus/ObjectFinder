@@ -20,6 +20,7 @@ public class Main extends Application {
         primaryStage.setTitle("ObjectFinder");
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/icon.png")));
         primaryStage.setScene(new Scene(root));
+        primaryStage.setResizable(false);
         primaryStage.show();
         Platform.runLater(root::requestFocus);
     }
