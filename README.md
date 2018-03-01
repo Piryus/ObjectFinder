@@ -1,4 +1,3 @@
-
 # ObjectFinder
 
 A simple program to find where models are placed in WoW. Just feed it ADTs and the name of a model, ObjectFinder will find where it's located on these ADTs, its scale and will even provide you with a command to copy/paste in-game in order to teleport yourself directly on the object.
@@ -36,3 +35,7 @@ Explanations coming soon.
 	* **!tele-ready** : Copy/paste-ready for some sandboxes and servers. Same as **Classic**, but with MapID. The MapID will only be displayed if it's from an official map, the IDs are extracted from [map.db2](https://wowdev.wiki/DB/Map). **MapID on custom maps won't appear.**
 	* **worldport-ready** : Same as **!tele-ready** but for official servers. Only GMs can use that command. However, the command was accessible for some hours to players on RPT not long ago. So, always be ready.
 4. Click the "Search !" button. Once the search finished, a popup alert will invite you to open report. Do so and you will have everything you need ! 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
