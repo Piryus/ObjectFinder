@@ -49,8 +49,8 @@ public class SearchController {
 
     private boolean checkModelsSuffix() {
         boolean isOk = true;
-        for(String object : asList(objectsField.getText().split(","))) {
-            if(!object.toUpperCase().contains(".M2") && !object.toUpperCase().contains(".WMO"))
+        for (String object : asList(objectsField.getText().split(","))) {
+            if (!object.toUpperCase().contains(".M2") && !object.toUpperCase().contains(".WMO"))
                 isOk = false;
         }
         return isOk;
@@ -142,10 +142,10 @@ public class SearchController {
     // Click on cancel button
     @FXML
     private void handleCancel(ActionEvent e) {
-        if(filesInFolder!=null && filesInFolder.isRunning())
-        filesInFolder.cancel(true);
-        if(search!= null && search.isRunning())
-        search.cancel(true);
+        if (filesInFolder != null && filesInFolder.isRunning())
+            filesInFolder.cancel(true);
+        if (search != null && search.isRunning())
+            search.cancel(true);
 
         // Reset the progress bar and label
         progressBar.progressProperty().unbind();
@@ -161,11 +161,33 @@ public class SearchController {
     @FXML
     private void handleAbout(ActionEvent e) {
         Alert alertAbout = new Alert(Alert.AlertType.INFORMATION);
+        alertAbout.getDialogPane().setPrefWidth(530);
+        alertAbout.setResizable(true);
         alertAbout.setTitle("About ObjectFinder");
-        alertAbout.setHeaderText("ObjectFinder by Piryus, 2018.");
+        alertAbout.setHeaderText("Copyright (c) 2018 Piryus");
         alertAbout.setContentText("Please feel free to contact me at : contact@piryus.fr for any questions.\nSpecial thanks to Mjollna for her advice and suggestions.\n\n" +
                 "World of Warcraft and Warcraft are trademarks or registered trademarks of Blizzard Entertainment, Inc., in the U.S. and/or other countries.\n" +
-                "ObjectFinder is not affiliated with Blizzard Entertainment.");
+                "ObjectFinder is not affiliated with Blizzard Entertainment.\n" +
+                "\n" +
+                "ObjectFinder is licensed under the MIT License\n" +
+                "\n" +
+                "Permission is hereby granted, free of charge, to any person obtaining a copy\n" +
+                "of this software and associated documentation files (the \"Software\"), to deal\n" +
+                "in the Software without restriction, including without limitation the rights\n" +
+                "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n" +
+                "copies of the Software, and to permit persons to whom the Software is\n" +
+                "furnished to do so, subject to the following conditions:\n" +
+                "\n" +
+                "The above copyright notice and this permission notice shall be included in all\n" +
+                "copies or substantial portions of the Software.\n" +
+                "\n" +
+                "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n" +
+                "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n" +
+                "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n" +
+                "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n" +
+                "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n" +
+                "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n" +
+                "SOFTWARE.\n");
 
         alertAbout.showAndWait();
     }
@@ -201,7 +223,7 @@ public class SearchController {
         statusLabel.setText("");
 
         // Add choices to the coordinate system choice box
-        coordsChoiceBox.setItems(FXCollections.observableArrayList("Classic","!tele-ready","worldport-ready"));
+        coordsChoiceBox.setItems(FXCollections.observableArrayList("Classic", "!tele-ready", "worldport-ready"));
         coordsChoiceBox.getSelectionModel().selectFirst();
     }
 }
