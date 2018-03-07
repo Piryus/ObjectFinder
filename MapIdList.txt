@@ -871,3 +871,13 @@
 1926	KulTiranFlagship
 1927	ZandalariFlagship
 1929	HallOfCommunion(Destroyed)
+1930	ZandalarAllianceIntroScenerio
+1931	LordaeronBlight
+1932	BlackrockDepthsDarkIron2
+1934	Islands_8KUL_CaveMicro_freehold01
+1935	Islands_8KUL_CaveMicro01
+1936	Islands_8KUL_CaveMicro02
+1937	Islands_8KUL_CaveMicro03
+1938	Islands_8RIV_CaveMicro_01
+1939	Islands_8RIV_CaveMicro_02
+1940	StormwindEmbassyVoldunStatic
