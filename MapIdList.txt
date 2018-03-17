@@ -881,3 +881,6 @@
 1938	Islands_8RIV_CaveMicro_01
 1939	Islands_8RIV_CaveMicro_02
 1940	StormwindEmbassyVoldunStatic
+1941	TransportNazmirRaidElevator
+1942	MoltenCoreDarkIron
+1943	WarfrontsArathi - Alliance
